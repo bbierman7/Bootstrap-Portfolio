@@ -1,72 +1,108 @@
-Index:
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Document</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!--Header with navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <a class="navbar-brand" href="#">Brendan Bierman</a>
+
+            <ul class="navbar-nav ml-auto mt-2 ml-auto mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-item nav-link float-right" href="#">About Me <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-item nav-link float-right" href="#">Contact</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-item nav-link float-right" href="#">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
     <div class="container">
-        <!--Header with navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                  </div>
-                </div>
-              </nav>
 
         <!--Needs white box with profile pic and lipsum-->
-            <div class="row bg-light text-dark" style="margin-top:60px">
-                <!--blank side on left-->
-                <div class="col-md-2"></div>
+        <div class="row bg-light text-dark" style="margin-top:60px">
+            <!--blank side on left-->
+            <div class="col-md-2"></div>
 
-                <!--Profile Pic with Lorem-->
-                <div class="row">
+            <!--Profile Pic with Lorem-->
+            <div class="row">
 
-                    <!--Profile Pic-->
-                    <div class="col-md-3 col-sm-12">
-                        <img src="..\Bootstrap-Portfolio\Profile Pic.jpg" class="rounded" alt="Profile Pic">
-                    </div>
-
-                    <div class="col-md-1"></div>
-
-                    <!--Lorem Ipsum in line with Profile Pic-->
-                    <div class="col-md-7 col-sm-12" style="margin-left:70px">
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, a! Maiores, error nam rem eligendi fuga delectus quisquam iusto tempora quas optio vero odit facere eveniet adipisci reiciendis aut ducimus.
-                        Dolore nulla minus nemo praesentium rerum nesciunt sequi rem, quos quas provident id repellendus blanditiis inventore nam, vitae nostrum reprehenderit consectetur debitis? Cumque sit aspernatur quaerat maiores optio voluptatibus illo.
-                        Nostrum doloribus tenetur officiis, tempore error dolore maxime facere a saepe in culpa unde perspiciatis esse molestias? Fugit quam ipsam at culpa, possimus quibusdam tenetur, quos iure, id ad minus.</p>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam quidem ratione nemo explicabo facere harum eum quo magni quas! Quos voluptates eum perferendis, placeat ipsum cum veritatis dolore numquam.Laboriosam necessitatibus maiores quasi accusamus sint totam mollitia vero pariatur distinctio consequatur ducimus officiis corrupti omnis sequi cupiditate voluptatum, harum, dicta nostrum dignissimos exercitationem dolorum blanditiis excepturi amet magni! Perspiciatis?</p>
-                    </div>
-
+                <!--Profile Pic-->
+                <div class="col-md-3 col-sm-12">
+                    <img src="..\Bootstrap-Portfolio\Profile Pic.jpg" class="rounded" alt="Profile Pic">
                 </div>
 
-                <!--Lorem Ipsum in new row-->
-                <div class="row">
-                    <div class="col-md-12" style="margin-top:20px">
-                        <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel maiores animi facere optio atque? Quo reiciendis, vero neque debitis autem doloremque possimus temporibus, exercitationem harum quas praesentium quia quaerat sit.Consequuntur eum accusantium cupiditate quia cumque illum laborum aliquam voluptatum temporibus iste tenetur provident dolorum omnis unde, corrupti repellendus eius, harum iure sunt commodi sint voluptatem ab! Delectus, temporibus tempore?</p>
-                    </div>
-                </div>    
+                <div class="col-md-1"></div>
 
-                
-                <!--blank side on right-->
-                <div class="col-md-2"></div>
+                <!--Lorem Ipsum in line with Profile Pic-->
+                <div class="col-md-7 col-sm-12" style="margin-left:70px">
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, a! Maiores,
+                        error nam rem eligendi fuga delectus quisquam iusto tempora quas optio vero odit facere eveniet
+                        adipisci reiciendis aut ducimus.
+                        Dolore nulla minus nemo praesentium rerum nesciunt sequi rem, quos quas provident id repellendus
+                        blanditiis inventore nam, vitae nostrum reprehenderit consectetur debitis? Cumque sit aspernatur
+                        quaerat maiores optio voluptatibus illo.
+                        Nostrum doloribus tenetur officiis, tempore error dolore maxime facere a saepe in culpa unde
+                        perspiciatis esse molestias? Fugit quam ipsam at culpa, possimus quibusdam tenetur, quos iure,
+                        id ad minus.</p>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam
+                        quidem ratione nemo explicabo facere harum eum quo magni quas! Quos voluptates eum perferendis,
+                        placeat ipsum cum veritatis dolore numquam.Laboriosam necessitatibus maiores quasi accusamus
+                        sint totam mollitia vero pariatur distinctio consequatur ducimus officiis corrupti omnis sequi
+                        cupiditate voluptatum, harum, dicta nostrum dignissimos exercitationem dolorum blanditiis
+                        excepturi amet magni! Perspiciatis?</p>
+                </div>
+
             </div>
+
+            <!--Lorem Ipsum in new row-->
+            <div class="row">
+                <div class="col-md-12" style="margin-top:20px">
+                    <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel maiores animi
+                        facere optio atque? Quo reiciendis, vero neque debitis autem doloremque possimus temporibus,
+                        exercitationem harum quas praesentium quia quaerat sit.Consequuntur eum accusantium cupiditate
+                        quia cumque illum laborum aliquam voluptatum temporibus iste tenetur provident dolorum omnis
+                        unde, corrupti repellendus eius, harum iure sunt commodi sint voluptatem ab! Delectus,
+                        temporibus tempore?</p>
+                </div>
+            </div>
+
+
+            <!--blank side on right-->
+            <div class="col-md-2"></div>
+        </div>
         <!--Footer-->
     </div>
 
 
 </body>
+
 </html>
